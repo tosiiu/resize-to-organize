@@ -1,0 +1,9 @@
+{
+  "name": "resize to organize",
+  "id": "1109522561828052782",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma"
+  ]
+}
