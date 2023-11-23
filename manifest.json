@@ -1,7 +1,7 @@
 {
   "name": "AlignSize",
   "id": "1109522561828052782",
-  "api": "1.1.0",
+  "api": "1.0.0",
   "main": "code.js",
   "editorType": ["figma"],
   "menu": [
