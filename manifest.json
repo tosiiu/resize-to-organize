@@ -1,9 +1,13 @@
 {
-  "name": "resize to organize",
+  "name": "resize to the same size",
   "id": "1109522561828052782",
   "api": "1.0.0",
   "main": "code.js",
   "editorType": [
     "figma"
+  ],
+  "menu": [
+    {"name": "Resize to the biggest one", "command": "max"},
+    {"name": "Resize to the smallest one", "command": "min"}
   ]
-}
+  }
