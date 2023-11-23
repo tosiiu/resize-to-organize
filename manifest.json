@@ -1,13 +1,11 @@
 {
-  "name": "resize to the same size",
+  "name": "AlignSize",
   "id": "1109522561828052782",
-  "api": "1.0.0",
+  "api": "1.1.0",
   "main": "code.js",
-  "editorType": [
-    "figma"
-  ],
+  "editorType": ["figma"],
   "menu": [
-    {"name": "Resize to the biggest one", "command": "max"},
-    {"name": "Resize to the smallest one", "command": "min"}
+    { "name": "Align size to the biggest one", "command": "max" },
+    { "name": "Align size to the smallest one", "command": "min" }
   ]
-  }
+}
