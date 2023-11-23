@@ -1,11 +1,30 @@
 {
   "name": "AlignSize",
   "id": "1109522561828052782",
-  "api": "1.1.0",
+  "api": "1.0.0",
   "main": "code.js",
   "editorType": ["figma"],
   "menu": [
-    { "name": "Align size to the biggest one", "command": "max" },
-    { "name": "Align size to the smallest one", "command": "min" }
+    {
+      "name": "Align size",
+      "menu": [
+        { "name": "to biggest", "command": "align-to-biggest" },
+        { "name": "to smallest", "command": "align-to-smallest" }
+      ]
+    },
+    {
+      "name": "Align width",
+      "menu": [
+        { "name": "to widest", "command": "align-to-widest" },
+        { "name": "to narrowest", "command": "align-to-narrowest" }
+      ]
+    },
+    {
+      "name": "Align height",
+      "menu": [
+        { "name": "to tallest", "command": "align-to-tallest" },
+        { "name": "to shortest", "command": "align-to-shortest" }
+      ]
+    }
   ]
 }
